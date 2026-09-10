@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaCu Posé — Eugénie Fernet</title>
+    <link rel="icon" type="image/png" href="../img/illus/eug.png">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body class="inner-page">
+
+    <header class="site-header">
+        <a href="../index.html" class="logo-icon">
+            <img src="../img/illus/eug.png" alt="Eugénie Fernet">
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="siteMenu">
+            <span class="menu-toggle-text"></span>
+        </button>
+    </header>
+
+    <nav class="site-menu" id="siteMenu">
+        <ul>
+            <li><a href="../index.html">Accueil</a></li>
+            <li><a href="../index.html#projets">Projets</a></li>
+            <li><a href="../par-ci-par-la.html">Par-ci par-là</a></li>
+            <li><a href="../a-propos.html">À propos</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="project-container">
+        <!-- Bloc texte + galerie -->
+        <div class="project-content">
+            <div class="project-text">
+                <h1>MACU POSÉ</h1>
+                <p>La planche de skate, fortement liée à l’espace urbain, est un objet soumis à une usure importante et souvent délaissé lorsqu’elle n’est plus utilisable. Je me suis intéressée à cette seconde vie de l’objet en imaginant une installation qui lui permet de retrouver sa place dans la rue. Composée de deux planches usagées, l’installation s’emboîte directement dans une barrière située devant la Maison de la Culture d’Amiens, un spot de skate fréquenté. Pensée spécifiquement pour ce lieu, elle questionne le rapport entre objet, territoire et appropriation. Un QR code renvoie vers une notice permettant aux skateurs de reproduire eux-mêmes l’installation et ainsi de prolonger le projet. </p>
+            </div>
+            <div class="project-gallery">
+                <img src="../img/MACUPOSE/1.jpg" alt="Image du projet">
+                <img src="../img/MACUPOSE/2.jpg" alt="Image du projet">
+                <img src="../img/MACUPOSE/3.jpg" alt="Image du projet">
+                <img src="../img/MACUPOSE/4.jpg" alt="Image du projet">
+                <img src="../img/MACUPOSE/5.jpg" alt="Image du projet">
+                <img src="../img/MACUPOSE/6.jpg" alt="Image du projet">
+                <img src="../img/MACUPOSE/7.jpg" alt="Image du projet">
+                <img src="../img/MACUPOSE/10.jpg" alt="Image du projet">
+                <img src="../img/MACUPOSE/8.jpg" alt="Image du projet">
+                <img src="../img/MACUPOSE/9.jpg" alt="Image du projet">
+
+            </div>
+        </div>
+
+        <!-- Modale d'affichage des images -->
+        <div id="imageModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modalImg">
+        </div>
+
+    </main>
+
+    <script src="../js/script.js"></script>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Eugénie FERNET - Tous droits réservés</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

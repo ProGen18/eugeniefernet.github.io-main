@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Par-ci par-là — Eugénie Fernet</title>
+    <meta name="description" content="Petits projets, workshops et essais d'Eugénie Fernet.">
+    <link rel="icon" type="image/png" href="img/illus/eug.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body class="inner-page">
+    <header class="site-header">
+        <a href="index.html" class="logo-icon">
+            <img src="img/illus/eug.png" alt="Eugénie Fernet">
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="siteMenu" aria-label="Ouvrir le menu">
+            <span class="menu-toggle-text"></span>
+        </button>
+    </header>
+
+    <nav class="site-menu" id="siteMenu">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="index.html#projets">Projets</a></li>
+            <li><a href="par-ci-par-la.html">Par-ci par-là</a></li>            
+            <li><a href="a-propos.html">À propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="misc-container">
+        <p class="misc-intro">
+            Des petites choses faites à côté : workshops, essais, commandes...
+        </p>
+
+        <!-- Un mini-projet : duplique ce bloc <article> pour chaque nouveau -->
+
+        <article class="mini-project">
+            <div class="mini-project-header">
+                <h2 class="mini-project-title">DÉFI WIND 2026</h2>
+                <span class="mini-project-year">2026</span>
+            </div>
+            <div class="mini-project-body">
+                <div class="mini-project-images">
+                    <img src="img/PARCI/defiwind.jpg" alt="">
+                    <img src="img/PARCI/defiwind2.jpg" alt="">
+                </div>
+                <p class="mini-project-caption">
+                    Proposition d'affiche pour l'évènement "Défi Wind", qui est une compétition
+                    internationale de planche à voile.
+                </p>
+            </div>
+        </article>
+
+        <article class="mini-project">
+            <div class="mini-project-header">
+                <h2 class="mini-project-title">SIGNALÉTIQUE DE CHAMBRE</h2>
+                <span class="mini-project-year">2026</span>
+            </div>
+            <div class="mini-project-body">
+                <div class="mini-project-images">
+                    <img src="img/PARCI/porte.jpg" alt="">
+                    <img src="img/PARCI/porte2.jpg" alt="">
+                    <img src="img/PARCI/porte3.jpg" alt="">
+                </div>
+                <p class="mini-project-caption">
+                    Et si la moi ado imaginait un élément de signalétique pour sa chambre, que ferait-elle ?
+                    Certainement un petit cartel pour demander à ce qu'on sorte de sa chambre...
+                </p>
+            </div>
+        </article>
+
+        <article class="mini-project">
+            <div class="mini-project-header">
+                <h2 class="mini-project-title">MOUNTAIN'S SKATER</h2>
+                <span class="mini-project-year">2026</span>
+            </div>
+            <div class="mini-project-body">
+                <div class="mini-project-images">
+                    <img src="img/PARCI/3.jpg" alt="">
+                    <img src="img/PARCI/2.jpg" alt="">
+                    <img src="img/PARCI/4.jpg" alt="">
+                </div>
+                <p class="mini-project-caption">
+                    {Commande} Acrylique sur bois
+                </p>
+            </div>
+        </article>
+
+        <article class="mini-project">
+            <div class="mini-project-header">
+                <h2 class="mini-project-title">GUINNESS' POSTER</h2>
+                <span class="mini-project-year">2026</span>
+            </div>
+            <div class="mini-project-body">
+                <div class="mini-project-images">
+                    <img src="img/POSTERGUINNESS/17.jpeg" alt="">
+                    <img src="img/POSTERGUINNESS/43.jpeg" alt="">
+                    <img src="img/POSTERGUINNESS/29.jpeg" alt="">
+                </div>
+                <p class="mini-project-caption">
+                    Poster 40x60cm, impression sur papier chromé pour rappeler l'esthétique du fût et de la cannette de bière. Durant mon séjour en Irlande, j'ai croisé un nombre incalculable de fois des posters et des plaques qui vantaient la célèbre bière irlandaise. J'ai décidé de prendre en photo chacune de ces
+                    publicités, dans le but d'en faire par la suite un objet graphique qui les répertorie.
+                    
+                </p>
+            </div>
+        </article>
+
+        <!-- etc. : ajoute autant de <article class="mini-project"> que nécessaire -->
+
+        <!-- Modale d'affichage des images en grand -->
+        <div id="imageModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modalImg">
+        </div>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Eugénie FERNET - Tous droits réservés</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

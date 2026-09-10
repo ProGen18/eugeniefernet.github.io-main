@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In Éirinn — Eugénie Fernet</title>
+    <link rel="icon" type="image/png" href="../img/illus/eug.png">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body class="inner-page">
+
+    <header class="site-header">
+        <a href="../index.html" class="logo-icon">
+            <img src="../img/illus/eug.png" alt="Eugénie Fernet">
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="siteMenu">
+            <span class="menu-toggle-text"></span>
+        </button>
+    </header>
+
+    <nav class="site-menu" id="siteMenu">
+        <ul>
+            <li><a href="../index.html">Accueil</a></li>
+            <li><a href="../index.html#projets">Projets</a></li>
+            <li><a href="../par-ci-par-la.html">Par-ci par-là</a></li>
+            <li><a href="../a-propos.html">À propos</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="project-container">
+        <!-- Bloc texte + galerie -->
+        <div class="project-content">
+            <div class="project-text">
+                <h1>IN ÉIRINN</h1>
+                <p>Cette série photographique rassemble des images réalisées lors de mon Erasmus en Irlande. La pochette regroupe quatre éditions: deux consacrées à des lieux précis, le Ring of Kerry et les Cliffs of Moher, et deux autres autour de comtés que j’ai particulièrement photographiés. Pensé comme un travail de compte rendu, ce projet rassemble les lieux traversés et les paysages découverts au cours de cette expérience.
+                </p>
+            </div>
+            <div class="project-gallery">
+                <img src="../img/inerinn/_MG_0969.jpg" alt="Image du projet">
+                <img src="../img/inerinn/_MG_0971.jpg" alt="Image du projet">
+                <img src="../img/inerinn/_MG_0978.jpg" alt="Image du projet">
+                <img src="../img/inerinn/_MG_0985.jpg" alt="Image du projet">
+                <img src="../img/inerinn/_MG_0992.jpg" alt="Image du projet">                
+                <img src="../img/inerinn/_MG_0988.jpg" alt="Image du projet">                
+                <img src="../img/inerinn/_MG_0990.jpg" alt="Image du projet">
+                <img src="../img/inerinn/_MG_1007.jpg" alt="Image du projet">
+
+            </div>
+        </div>
+
+        <!-- Modale d'affichage des images -->
+        <div id="imageModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modalImg">
+        </div>
+
+    </main>
+
+    <script src="../js/script.js"></script>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Eugénie FERNET - Tous droits réservés</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
